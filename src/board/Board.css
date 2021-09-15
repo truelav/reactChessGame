@@ -1,0 +1,11 @@
+.board {
+  margin-top: 10vh;
+}
+
+.boardInnerContainer {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  max-width: 600px;
+  height: 600px;
+  margin: auto;
+}

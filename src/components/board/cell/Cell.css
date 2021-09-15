@@ -1,0 +1,111 @@
+.cellInnerContainer {
+  width: 100%;
+  height: 100%;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.Cell {
+  background-color: #f6fdec;
+}
+
+#cell00,
+#cell02,
+#cell04,
+#cell06,
+#cell11,
+#cell13,
+#cell15,
+#cell17,
+#cell20,
+#cell22,
+#cell24,
+#cell26,
+#cell31,
+#cell33,
+#cell35,
+#cell37,
+#cell40,
+#cell42,
+#cell44,
+#cell46,
+#cell51,
+#cell53,
+#cell55,
+#cell57,
+#cell60,
+#cell62,
+#cell64,
+#cell66,
+#cell71,
+#cell73,
+#cell75,
+#cell77 {
+  background-color: #769656;
+}
+
+#cellPieceWhiteRook {
+  background-image: url(../../../images/pieces/wr.png);
+}
+
+#cellPieceWhiteKnight {
+  background-image: url(../../../images/pieces/wn.png);
+}
+
+#cellPieceWhiteBishop {
+  background-image: url(../../../images/pieces/wb.png);
+}
+
+#cellPieceWhiteQueen {
+  background-image: url(../../../images/pieces/wq.png);
+}
+
+#cellPieceWhiteKing {
+  background-image: url(../../../images/pieces/wk.png);
+}
+
+#cellPieceWhitePawn {
+  background-image: url(../../../images/pieces/wp.png);
+}
+
+
+#cellPieceBlackRook {
+  background-image: url(../../../images/pieces/br.png);
+}
+
+#cellPieceBlackKnight {
+  background-image: url(../../../images/pieces/bn.png);
+}
+
+#cellPieceBlackBishop {
+  background-image: url(../../../images/pieces/bb.png);
+}
+
+#cellPieceBlackQueen {
+  background-image: url(../../../images/pieces/bq.png);
+}
+
+#cellPieceBlackKing {
+  background-image: url(../../../images/pieces/bk.png);
+}
+
+#cellPieceBlackPawn {
+  background-image: url(../../../images/pieces/bp.png);
+}
+
+#cellPieceWhiteRook,
+#cellPieceWhiteKnight,
+#cellPieceWhiteBishop,
+#cellPieceWhiteQueen,
+#cellPieceWhiteKing,
+#cellPieceWhitePawn,
+#cellPieceBlackRook,
+#cellPieceBlackKnight,
+#cellPieceBlackBishop,
+#cellPieceBlackQueen,
+#cellPieceBlackKing,
+#cellPieceBlackPawn {
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
