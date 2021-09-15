@@ -41,11 +41,7 @@ function Board() {
   }
 
   const handleRoateTheView = () => {
-    let current;
-    for(let i = 0; i < 8; i++){
-      current = currentBoard.splice(0, 1)
-      setCurrentBoard(...currentBoard, ...current)
-    }
+
   }
 
   const handleFindBoardPosition = (rowIdx, colIdx, propsObj) => {
